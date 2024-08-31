@@ -1,4 +1,3 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { MobileFoodFacilityPermit } from "./pages/MobileFoodFacilityPermit.tsx";
 import "./index.css";
@@ -15,12 +14,10 @@ const router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <StyledEngineProvider injectFirst>
-        <CssBaseline />
-        <RouterProvider router={router} />
-      </StyledEngineProvider>
-    </QueryClientProvider>
-  </StrictMode>
+  <QueryClientProvider client={queryClient}>
+    <StyledEngineProvider injectFirst>
+      <CssBaseline />
+      <RouterProvider router={router} />
+    </StyledEngineProvider>
+  </QueryClientProvider>
 );
