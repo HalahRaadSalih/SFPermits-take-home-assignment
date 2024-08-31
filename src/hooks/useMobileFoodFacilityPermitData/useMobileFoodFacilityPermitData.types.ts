@@ -1,4 +1,9 @@
+interface SortMode {
+  field: string;
+  order: "asc" | "desc";
+}
 export interface UseMobileFoodFacilityPermitDataProps {
+  sort?: SortMode;
   offset?: number;
   queryParams?: string;
 }
@@ -6,6 +11,7 @@ export interface UseMobileFoodFacilityPermitDataReturn {
   data: MobileFoodFacilityPermit[];
   isLoading: boolean;
   isError: boolean;
+  count: number;
 }
 
 interface MobileFoodFacilityPermitLocation {
