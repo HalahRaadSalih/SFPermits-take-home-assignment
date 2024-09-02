@@ -1,0 +1,1 @@
+export { useMobileFoodFacilityPermitPagintion } from "./useMobileFoodFacilityPermitPagintion";
