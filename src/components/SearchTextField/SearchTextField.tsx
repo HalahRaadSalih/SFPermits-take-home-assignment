@@ -8,6 +8,7 @@ export const SearchTextField = (prop: SearchTextFieldProps) => {
   return (
     <TextField
       fullWidth
+      autoFocus
       placeholder={placeholder}
       value={value}
       onChange={(event) => onSearch(event.target.value)}
