@@ -13,14 +13,13 @@ export const MobileFoodFacilityPermitFilters = (
   props: MobileFoodFacilityPermitFiltersProps
 ) => {
   const { onFilter, filters } = props;
-  const { applicant, address, status } = filters;
   return (
     <Grid2 container spacing={2} margin={2}>
       <Grid2 size={5}>
         <SearchTextField
-          key={applicant}
+          key={filters?.applicant}
           placeholder="Search by applicant"
-          value={applicant}
+          value={filters?.applicant}
           onSearch={(applicant: string) => {
             onFilter({ applicant });
           }}
@@ -28,9 +27,9 @@ export const MobileFoodFacilityPermitFilters = (
       </Grid2>
       <Grid2 size={5}>
         <SearchTextField
-          key={address}
+          key={filters?.address}
           placeholder="Search by address"
-          value={address}
+          value={filters?.address}
           onSearch={(address: string) => {
             onFilter({ address });
           }}
@@ -44,7 +43,7 @@ export const MobileFoodFacilityPermitFilters = (
             label="Status"
             defaultValue=""
             name="status"
-            value={status}
+            value={filters?.status}
             onChange={(event) => {
               onFilter({ status: event.target.value as string });
             }}

@@ -4,6 +4,6 @@ export interface MobileFoodFacilityPermitFilter {
   status?: string;
 }
 export interface MobileFoodFacilityPermitFiltersProps {
-  filters: MobileFoodFacilityPermitFilter;
+  filters: MobileFoodFacilityPermitFilter | null;
   onFilter: (filter: MobileFoodFacilityPermitFilter) => void;
 }
