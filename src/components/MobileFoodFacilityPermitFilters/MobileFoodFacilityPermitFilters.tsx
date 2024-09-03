@@ -9,9 +9,14 @@ import { MobileFoodFacilityPermitFiltersProps } from "./MobileFoodFacilityPermit
 import { SearchTextField } from "../SearchTextField";
 import { STATUS_OPTIONS } from "./MobileFoodFacilityPermitFilters.constants";
 
+/**
+ * MobileFoodFacilityPermitFilters component
+ * @param {MobileFoodFacilityPermitFiltersProps} props
+ * @returns {JSX.Element}
+ */
 export const MobileFoodFacilityPermitFilters = (
   props: MobileFoodFacilityPermitFiltersProps
-) => {
+): JSX.Element => {
   const { onFilter, filters } = props;
   return (
     <Grid2 container spacing={2} margin={2}>
