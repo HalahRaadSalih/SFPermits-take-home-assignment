@@ -22,8 +22,12 @@ export const generateQueryParams = (
   if (!filters) {
     return "";
   }
-
   const { applicant, address, status } = filters;
+
+  if (!applicant && !address && !status) {
+    return "";
+  }
+
   const queryParams = [];
 
   if (applicant) {

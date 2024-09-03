@@ -19,7 +19,7 @@ export interface SortMode {
 /**
  * The mobile food facility permit data.
  */
-export interface UseMobileFoodFacilityPermitDataProps {
+export interface UseMobileFoodFacilityPermitDataQueryProps {
   /**
    * The sort mode of the mobile food facility permit data.
    * @type {SortMode}
@@ -180,9 +180,9 @@ export interface MobileFoodFacilityPermit {
 }
 
 /**
- * The return type of the useMobileFoodFacilityPermitData hook.
+ * The return type of the useMobileFoodFacilityPermitQueryData hook.
  */
-export interface UseMobileFoodFacilityPermitDataReturn {
+export interface UseMobileFoodFacilityPermitQueryDataReturn {
   /**
    * The mobile food facility permit data array.
    * @type {MobileFoodFacilityPermit[]}

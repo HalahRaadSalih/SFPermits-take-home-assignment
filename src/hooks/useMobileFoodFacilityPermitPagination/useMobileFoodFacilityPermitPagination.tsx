@@ -2,7 +2,7 @@ import { useState } from "react";
 import {
   DEFAULT_OFFSET,
   PAGINATION_LIMIT,
-} from "../useMobileFoodFacilityPermitData";
+} from "../useMobileFoodFacilityPermitQueryData";
 import { UseMobileFoodFacilityPermitPaginationReturn } from "./useMobileFoodFacilityPermitPagination.types";
 
 /**

@@ -1,4 +1,4 @@
-import { MobileFoodFacilityPermit } from "../../hooks/useMobileFoodFacilityPermitData/useMobileFoodFacilityPermitData.types";
+import { MobileFoodFacilityPermit } from "../../hooks/useMobileFoodFacilityPermitQueryData/useMobileFoodFacilityPermitQueryData.types";
 
 /**
  * Get the row id of a mobile food facility permit

@@ -3,7 +3,7 @@ import {
   GridCallbackDetails,
   GridSortModel,
 } from "@mui/x-data-grid";
-import { MobileFoodFacilityPermit } from "../../hooks/useMobileFoodFacilityPermitData";
+import { MobileFoodFacilityPermit } from "../../hooks/useMobileFoodFacilityPermitQueryData";
 
 /**
  * The props of the MobileFoodFacilityPermitDataGrid component.
