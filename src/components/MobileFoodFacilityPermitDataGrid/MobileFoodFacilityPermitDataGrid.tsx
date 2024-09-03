@@ -3,9 +3,14 @@ import { MobileFoodFacilityPermitDataGridProps } from "./MobileFoodFacilityPermi
 import { COLUMNS } from "./MobileFoodFacilityPermitDataGrid.contants";
 import { getRowId } from "./MobileFoodFacilityPermitDataGrid.utils";
 
+/**
+ * An MUI data grid for displaying mobile food facility permits
+ * @param {MobileFoodFacilityPermitDataGridProps} props The props
+ * @returns {JSX.Element} The mobile food facility permit data grid
+ */
 export const MobileFoodFacilityPermitDataGrid = (
   props: MobileFoodFacilityPermitDataGridProps
-) => {
+): JSX.Element => {
   const {
     data,
     isLoading,

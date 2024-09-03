@@ -1,3 +1,8 @@
+/**
+ * constant for MobileFoodFacilityPermitDataGrid component
+ * @type {Array<{field: string, headerName: string, width: number}>}
+ * @constant
+ */
 export const COLUMNS = [
   { field: "objectid", headerName: "Location ID", width: 200 },
   { field: "applicant", headerName: "Applicant", width: 200 },
