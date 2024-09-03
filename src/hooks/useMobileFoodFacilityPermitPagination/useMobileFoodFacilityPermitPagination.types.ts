@@ -1,6 +1,6 @@
 /**
  * @description
- * This is the return type of the useMobileFoodFacilityPermitPagintion hook
+ * This is the return type of the useMobileFoodFacilityPermitPagination hook
  */
 export interface UseMobileFoodFacilityPermitPaginationReturn {
   /**
