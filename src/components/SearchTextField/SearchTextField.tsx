@@ -2,7 +2,12 @@ import { InputAdornment, TextField } from "@mui/material";
 import { SearchTextFieldProps } from "./SearchTextField.types";
 import SearchIcon from "@mui/icons-material/Search";
 
-export const SearchTextField = (prop: SearchTextFieldProps) => {
+/**
+ *
+ * @param {SearchTextFieldProps} props
+ * @returns {JSX.Element}
+ */
+export const SearchTextField = (prop: SearchTextFieldProps): JSX.Element => {
   const { onSearch, value, placeholder } = prop;
 
   return (
