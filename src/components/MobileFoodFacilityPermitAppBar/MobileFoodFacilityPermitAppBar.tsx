@@ -1,6 +1,10 @@
 import { AppBar, Box, Typography } from "@mui/material";
 
-export const MobileFoodFacilityPermitAppBar = () => {
+/**
+ * MobileFoodFacilityPermitAppBar component
+ * @returns {JSX.Element}
+ */
+export const MobileFoodFacilityPermitAppBar = (): JSX.Element => {
   return (
     <AppBar position="static">
       <Box
